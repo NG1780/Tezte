@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Community - Recrutamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Infinity Community</h1>
+        <p>Quer começar o Rec Staff?</p>
+        <button onclick="startForm()">Sim</button>
+    </div>
+    <div id="form-section" class="hidden">
+        <h2>Formulário de Recrutamento</h2>
+        <form id="staff-form">
+            <label>Nome no Discord?</label>
+            <input type="text" name="discord_name" required>
+
+            <label>Idade?</label>
+            <input type="number" name="age" required>
+
+            <label>Há quanto tempo está no servidor?</label>
+            <input type="text" name="time_in_server" required>
+
+            <label>Qual sua disponibilidade?</label>
+            <input type="text" name="availability" required>
+
+            <label>Tem muitas amizades no servidor?</label>
+            <input type="text" name="friendships" required>
+
+            <label>Por que quer virar staff?</label>
+            <input type="text" name="reason" required>
+
+            <label>Quais horários mais fica on?</label>
+            <input type="text" name="active_hours" required>
+
+            <label>Tem maturidade e respeito pelos demais?</label>
+            <input type="text" name="maturity" required>
+
+            <label>Sabe tomar broncas se estiver errado e não ficar bravo?</label>
+            <input type="text" name="criticism" required>
+
+            <label>Qual sua intenção sendo staff do servidor?</label>
+            <input type="text" name="intention" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
